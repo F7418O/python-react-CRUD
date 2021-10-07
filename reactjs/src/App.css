@@ -1,0 +1,24 @@
+#hello {
+    display: table-row-group;
+    border:  1px solid red;
+}
+
+
+.grid{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4em;
+}
+
+img{
+    padding: auto;
+    margin: 10px;
+    background-color:lightseagreen;
+    height: 400px;
+}
+
+.content{
+    background-color: aqua;
+
+} 
