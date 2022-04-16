@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { config } from "dotenv";
 
 config();
-const hol = process.env.HOLA;
+
 const API = "http://localhost:5000";
 
 export const User = () => {
@@ -17,7 +17,6 @@ export const User = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(hol);
     if (name === "" || email === "" || password === "") return;
 
     if (!edit) {
