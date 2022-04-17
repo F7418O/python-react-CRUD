@@ -1,0 +1,25 @@
+{
+  "name": "python-react-crud",
+  "version": "1.0.0",
+  "home": "http://F7418O.github.io/python-react-CRUD",
+  "description": "crud con react and python",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "cd reactjs npm run build",
+    "deploy": "gh-pages -d reactjs/build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/F7418O/python-react-CRUD.git"
+  },
+  "author": "Frael",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/F7418O/python-react-CRUD/issues"
+  },
+  "homepage": "https://github.com/F7418O/python-react-CRUD#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
